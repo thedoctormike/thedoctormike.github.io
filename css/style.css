@@ -1,0 +1,37 @@
+body {
+  overflow:hidden;
+  background-image: url("../images/cartoon-xmas-tree.jpg");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px 750px;
+}
+
+.setting {
+  display: inline;
+  padding: 15px;
+}
+
+.ball {
+  border: none;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: Transparent;
+  z-index: 2;
+}
+
+.star {
+  border: none;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: Transparent;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.star img {
+	height: 100%;
+	width: 100%;
+}
